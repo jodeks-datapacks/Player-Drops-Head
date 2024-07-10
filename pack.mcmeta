@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 26,
-    "description": "Player drops head when killed"
+    "pack_format": 48,
+    "description": "Players drop their head when killed by another player - [1.21] v.3.1.0"
   }
 }
