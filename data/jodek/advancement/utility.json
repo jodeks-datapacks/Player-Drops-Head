@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block_minecart"
+    },
+    "title": "Utility datapacks              ",
+    "description": [
+      {
+        "text": "Providing general purpose features and quality of life improvements",
+        "color": "white",
+        "bold": false
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "jodek:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
