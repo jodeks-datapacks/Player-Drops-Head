@@ -61,6 +61,13 @@ $dialog show @s {\
         type:"run_command",\
         command:"function playerdropshead:config/player/dialog_player_config with storage playerdropshead:root data"\
       }\
+    },\
+    {\
+      "label": "Head Drop Area Config",\
+      "action": {\
+        type:"run_command",\
+        command:"function playerdropshead:config/area/dialog_area_config with storage playerdropshead:root data.area"\
+      }\
     }\
   ]\
 }

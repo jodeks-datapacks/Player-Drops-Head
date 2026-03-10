@@ -8,6 +8,8 @@ scoreboard objectives add playerdropshead.image dummy
 
 scoreboard objectives add playerdropshead.no_head dummy
 
+scoreboard objectives add playerdropshead.in_area dummy
+
 scoreboard players set @a playerdropshead.config 0
 scoreboard players set @a give_own_head 0
 scoreboard players set @a give_head 0
@@ -15,21 +17,6 @@ scoreboard players set @a give_head 0
 # Print the image
 function playerdropshead:config/image
 
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.give_own_head set value 1
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.dialog_give_own_head set value "$(dialog_give_own_head)"
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.give_head set value 0
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.dialog_give_head set value "$(dialog_give_head)"
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.head_drops set value 0
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.head_drops_killed set value 1
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.dialog_head_drops set value "$(dialog_head_drops)"
+function playerdropshead:config/set_default
 
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.players_no_head set value ""
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run data modify storage playerdropshead:root data.dialog_player_name set value "$(dialog_player_name)"
-
-execute unless score &give_own_head playerdropshead.config = &give_own_head playerdropshead.config run scoreboard players set &give_own_head playerdropshead.config 1
-
-execute unless score &give_head playerdropshead.config = &give_head playerdropshead.config run scoreboard players set &give_head playerdropshead.config 0
-
-# 0 = head drops only when killed by player, 1 = head drops always
-execute unless score &head_drops playerdropshead.config = &head_drops playerdropshead.config run scoreboard players set &head_drops playerdropshead.config 0
-
+schedule function playerdropshead:app/area/schedule 1s
