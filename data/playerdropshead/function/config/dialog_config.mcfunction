@@ -56,10 +56,10 @@ $dialog show @s {\
   },\
   actions:[\
     {\
-      "label": "Save",\
+      "label": "Player config",\
       "action": {\
-        type:"dynamic/run_command",\
-        template:"function playerdropshead:config/save_config {dialog_give_own_head:$(dialog_give_own_head), dialog_give_head:$(dialog_give_head), dialog_head_drops:$(dialog_head_drops)}"\
+        type:"run_command",\
+        command:"function playerdropshead:config/player/dialog_player_config with storage playerdropshead:root data"\
       }\
     }\
   ]\
