@@ -32,7 +32,7 @@
                       "type": "minecraft:fixed",
                       "name": "&head_drops"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 1
                 },
@@ -46,7 +46,7 @@
                         "type": "minecraft:context",
                         "target": "this"
                       },
-                      "score": "playerdropshead.no_head"
+                      "score": "player_drops_head.no_head"
                     },
                     "range": 1
                   }
@@ -59,7 +59,7 @@
                       "type": "minecraft:fixed",
                       "name": "&area_enabled"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 0
                 }
@@ -95,7 +95,7 @@
                       "type": "minecraft:fixed",
                       "name": "&head_drops"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 0
                 },
@@ -112,7 +112,7 @@
                         "type": "minecraft:context",
                         "target": "this"
                       },
-                      "score": "playerdropshead.no_head"
+                      "score": "player_drops_head.no_head"
                     },
                     "range": 1
                   }
@@ -125,7 +125,7 @@
                       "type": "minecraft:fixed",
                       "name": "&area_enabled"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 0
                 }
@@ -161,7 +161,7 @@
                       "type": "minecraft:fixed",
                       "name": "&head_drops"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 1
                 },
@@ -175,7 +175,7 @@
                         "type": "minecraft:context",
                         "target": "this"
                       },
-                      "score": "playerdropshead.no_head"
+                      "score": "player_drops_head.no_head"
                     },
                     "range": 1
                   }
@@ -188,7 +188,7 @@
                       "type": "minecraft:fixed",
                       "name": "&area_enabled"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 1
                 },
@@ -200,7 +200,7 @@
                       "type": "minecraft:context",
                       "target": "this"
                     },
-                    "score": "playerdropshead.in_area"
+                    "score": "player_drops_head.in_area"
                   },
                   "range": 1
                 }
@@ -236,7 +236,7 @@
                       "type": "minecraft:fixed",
                       "name": "&head_drops"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 0
                 },
@@ -253,7 +253,7 @@
                         "type": "minecraft:context",
                         "target": "this"
                       },
-                      "score": "playerdropshead.no_head"
+                      "score": "player_drops_head.no_head"
                     },
                     "range": 1
                   }
@@ -266,7 +266,7 @@
                       "type": "minecraft:fixed",
                       "name": "&area_enabled"
                     },
-                    "score": "playerdropshead.config"
+                    "score": "player_drops_head.config"
                   },
                   "range": 1
                 },
@@ -278,7 +278,7 @@
                       "type": "minecraft:context",
                       "target": "this"
                     },
-                    "score": "playerdropshead.in_area"
+                    "score": "player_drops_head.in_area"
                   },
                   "range": 1
                 }

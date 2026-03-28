@@ -1,0 +1,4 @@
+execute as @s at @s run loot spawn ~ ~100 ~ loot player_drops_head:player_head
+execute as @s run data modify storage player_drops_head:root data.players_no_head append from entity @e[nbt={Item:{components:{"minecraft:custom_data":{player_drops_head.player_name:1b}}}},limit=1] Item.components."minecraft:profile".name
+execute as @s run data modify storage player_drops_head:root data.player_no_head set from entity @e[nbt={Item:{components:{"minecraft:custom_data":{player_drops_head.player_name:1b}}}},limit=1] Item.components."minecraft:profile".name
+execute as @s run function player_drops_head:config/player/kill_player_head with storage player_drops_head:root data

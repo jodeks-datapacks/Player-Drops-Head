@@ -1,29 +1,41 @@
 {
   "pack": {
-    "min_format": [80,0],
-    "max_format": [999,0],
+    "min_format": [80, 0],
+    "max_format": [999, 0],
 
     "pack_format": 80,
-    "supported_formats": [80,999],
+    "supported_formats": [80, 999],
     "description": [
       {
-        "text": "\"Player Drops Head\" (playerdropshead)"
+        "text": "\"Player Drops Head\" (player_drops_head)"
       },
       "\n",
       {
-        "text": "Players drop their head when killed by another player",
+        "translate": "player_drops_head.description",
+        "fallback": "Players drop their head when killed by another player",
         "color": "#aaaaaa"
       },
       "\n\n",
       {
-        "text": "Version "
+        "translate": "jodek.version",
+        "fallback": "Version"
       },
       {
-        "text": "3.6.1",
+        "text": " "
+      },
+      {
+        "text": "3.6.2",
         "color": "#55ff55"
       },
       {
-        "text": " for Minecraft "
+        "text": " "
+      },
+      {
+        "translate": "jodek.for_minecraft",
+        "fallback": "for Minecraft"
+      },
+      {
+        "text": " "
       },
       {
         "text": "1.21.6+",
@@ -31,7 +43,11 @@
       },
       "\n",
       {
-        "text": "by "
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
       },
       {
         "text": "Jodek",

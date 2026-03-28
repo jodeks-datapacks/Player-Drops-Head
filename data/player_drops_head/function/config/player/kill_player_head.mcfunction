@@ -1,0 +1,1 @@
+$kill @e[nbt={Item:{components:{"minecraft:custom_data":{player_drops_head.player_name:1b},"minecraft:profile":{name:"$(player_no_head)"}}}}]

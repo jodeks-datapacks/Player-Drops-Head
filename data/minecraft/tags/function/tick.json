@@ -1,3 +1,5 @@
 {
-  "values": ["playerdropshead:app/main"]
+  "values": [
+    "player_drops_head:app/main"
+  ]
 }

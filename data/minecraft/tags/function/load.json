@@ -1,3 +1,6 @@
 {
-  "values": ["playerdropshead:app/setup", "playerdropshead:app/load_message"]
+  "values": [
+    "player_drops_head:app/setup",
+    "player_drops_head:app/load_message"
+  ]
 }
