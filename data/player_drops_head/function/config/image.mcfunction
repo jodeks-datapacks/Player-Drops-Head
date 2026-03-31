@@ -17,7 +17,6 @@ function player_drops_head:image/set_image_data {\
     {translate: "player_drops_head.description", fallback: "Players drop their head when killed by another player"},\
     "",\
     [{translate: "jodek.datapack_version", fallback: "Datapack version: ", color: "#00a800"}, {text: "v3.6.2", color: "#54fc54"}],\
-    [{translate: "jodek.game_version", fallback: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
     "",\
     [{translate: "jodek.by", fallback: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
     {text: "modrinth.com/datapack/player-drops-head", color: "#a800a8"},\
